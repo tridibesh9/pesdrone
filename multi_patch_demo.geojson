@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "patch",
+        "patch_id": "patch_001",
+        "confidence": 0.88,
+        "hits": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.3644,
+          22.57282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "patch",
+        "patch_id": "patch_002",
+        "confidence": 0.82,
+        "hits": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.36436,
+          22.57279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "patch",
+        "patch_id": "patch_003",
+        "confidence": 0.8,
+        "hits": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.36433,
+          22.57285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "patch",
+        "patch_id": "patch_004",
+        "confidence": 0.77,
+        "hits": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.36498,
+          22.5731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "patch",
+        "patch_id": "patch_005",
+        "confidence": 0.79,
+        "hits": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.36505,
+          22.57313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "patch",
+        "patch_id": "patch_006",
+        "confidence": 0.73,
+        "hits": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.36502,
+          22.57305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "patch",
+        "patch_id": "patch_007",
+        "confidence": 0.92,
+        "hits": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.36555,
+          22.57342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "cluster",
+        "cluster_id": "cluster_002",
+        "priority_score": 2.625,
+        "radius_m": 4.78
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.36436333333334,
+          22.572819999999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "cluster",
+        "cluster_id": "cluster_003",
+        "priority_score": 2.405,
+        "radius_m": 5.32
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.36501666666668,
+          22.573093333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "cluster",
+        "cluster_id": "cluster_001",
+        "priority_score": 0.966,
+        "radius_m": 0.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.36555,
+          22.57342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "spray_leg",
+        "leg_id": "leg_cluster_002",
+        "cluster_id": "cluster_002",
+        "heading_deg": 92.0,
+        "priority_score": 2.625
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.36403454621431,
+            22.572830601746148
+          ],
+          [
+            88.36424868079011,
+            22.57282369699627
+          ],
+          [
+            88.36447798587045,
+            22.572816302922405
+          ],
+          [
+            88.36469212041332,
+            22.57280939788886
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "spray_leg",
+        "leg_id": "leg_cluster_003",
+        "cluster_id": "cluster_003",
+        "heading_deg": 92.0,
+        "priority_score": 2.405
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.36468258448333,
+            22.573104105796645
+          ],
+          [
+            88.36489671948407,
+            22.573097201046767
+          ],
+          [
+            88.36513661384257,
+            22.57308946553089
+          ],
+          [
+            88.36535074880982,
+            22.573082560497348
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "spray_leg",
+        "leg_id": "leg_cluster_001",
+        "cluster_id": "cluster_001",
+        "heading_deg": 92.0,
+        "priority_score": 0.966
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.36524826360866,
+            22.573429729454567
+          ],
+          [
+            88.3654623991153,
+            22.57342282470469
+          ],
+          [
+            88.3656376008811,
+            22.573417175247833
+          ],
+          [
+            88.36585173635751,
+            22.57341027021428
+          ]
+        ]
+      }
+    }
+  ]
+}
